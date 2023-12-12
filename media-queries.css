@@ -1,7 +1,18 @@
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1030px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
     
     h3 {
         font-size: 1.2rem;
+    }
+
+    .header-right img {
+        width: 80%;
     }
     
     .nav-toggle {
@@ -30,14 +41,19 @@
     .nav-links ul {
         flex-direction: column;
     }
-
+    
     .examples-area {
-        gap: 20px;
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .examples-card {
-        width: calc(50% - 10px);
-        height: 180px;
+        width: 35%;
+        height: 380px;
+        margin-bottom: 20px;
+        margin: 20px;
     }
 
     .cta-section {
@@ -45,8 +61,15 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 776px) {
     
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
 
     .primary-button {
         width: 100%;
@@ -62,19 +85,52 @@
     }
 
     .features-card {
-        min-width: calc(50% - 10px);
+        min-width: 40%;
     }
 
     .big-feature-container, #second-big-feature {
         flex-direction: column;
     }
 
-    /* .footer-container {
+    .big-feature-section {
+        padding-bottom: 3rem;
+    }
+    .feature-img {
+        width: 70%;
+    }
+
+    .feature-desc {
         flex-direction: column;
-        gap: 40px;
-        text-align: center;
         align-items: center;
-    } */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .examples-area {
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .examples-card {
+        width: 30%;
+        height: 250px;
+        margin-bottom: 20px;
+        margin: 20px;
+    }
+    .card-text {
+        bottom: 30px;
+        left: 10px;
+        right: 0px;
+    }
+    .card-text-h2 {
+        bottom: 10px;
+        left: 10px;
+        right: 0px;
+        font-size: 90%;
+    }
 
     .link-column {
         align-items: stretch;
@@ -82,7 +138,7 @@
 
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 619px) {
     :root {
         --padding-inline-section: 10px;
     }
@@ -103,11 +159,40 @@
         font-size: 1rem;
     }
 
+    .header-right img {
+        width: 100%;
+    }
+
+    .logos {
+        gap: 10px;  
+    }
+
+    .logo {
+        height: 40px;
+    } 
+
+    .logo-s {
+        height: 76px;
+    }    
+
+    .big-feature-section {
+        padding-bottom: 2rem;
+    }
+
     .features-card {
-        min-width: 100%;
+        min-width: 30%;
+    }
+
+    .feature-desc {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 
     .examples-card {
-        width: 100%;
+        width: 60%;
+        height: 230px;
     }
 }
