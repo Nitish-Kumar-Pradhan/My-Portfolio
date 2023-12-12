@@ -328,7 +328,7 @@ header {
     width: 22%;
     position: relative;
     height: 295px;
-    margin: 0 60px;
+    margin: 0 30px;
     border-radius: 1rem;
     background: black;
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.4)), url(./assets/2.1.jpg);
