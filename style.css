@@ -21,6 +21,10 @@ body {
     color: var(--primary-text-color);
 }
 
+footer {
+    position: sticky !important;
+}
+
 h1 {
     font-size: 2.5rem;
 }
@@ -373,8 +377,12 @@ header {
     top: 30px;
 }
 
+.examples-card:nth-child(2) {
+    background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.7)), url(./assets/3.2.png);
+    background-size: cover;
+}
 .examples-card:nth-child(3) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.5)), url(./assets/3.1.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.5)), url(./assets/1.3.png);
     background-size: cover;
 }
 .card-text {
