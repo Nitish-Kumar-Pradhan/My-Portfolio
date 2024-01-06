@@ -232,4 +232,8 @@
         font-size: 1.2rem;
         top: 20px;
     }
+
+    .form-area {
+        padding-top: 3rem;
+    }
 }
