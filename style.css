@@ -16,6 +16,10 @@
     --padding-inline-section: 20px;
 }
 
+html{
+    scroll-behavior: smooth ;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--primary-text-color);
@@ -398,6 +402,80 @@ header {
     left: 20px;
     right: 20px;
     color: rgb(235, 233, 233);
+}
+
+/* form section */
+
+.form-area {
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    border-radius: 1.5rem;
+    padding: 8% 10% 5% 10%;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.form-area input, textarea{
+    height: 3rem;   
+    padding: 0 1rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 2px #191919;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name{
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.first-name{
+    width: 50%;    
+}
+.last-name{
+    width: 50%;    
+}
+
+.email-add{
+    width: 100%;
+}
+
+.message-box{
+    width: 100%;
+    height: max-content;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-button{
+    font-family: 'Poppins', sans-serif;
+    width: 10vw;
+    height: 5vh;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 500;
+    color: white !important;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+    text-align: center;
+    cursor: pointer;
+}
+
+.form-button i{
+    font-size: 1.1rem;
+}
+
+.form-button:hover {
+    i{
+        color: #ecb40c !important;
+    }
 }
 
 /* cta section */
