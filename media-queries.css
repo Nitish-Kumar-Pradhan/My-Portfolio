@@ -227,9 +227,9 @@
     }
 
     .features-heading-text {
-        width: 250px;
-        height: 60px;
-        font-size: 1.5rem;
-        top: 30px;
+        width: 170px;
+        height: 40px;
+        font-size: 1.2rem;
+        top: 20px;
     }
 }
