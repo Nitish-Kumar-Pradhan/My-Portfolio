@@ -26,7 +26,7 @@
                 Nitish Pradhan
             </a>
             <div class="nav-links" id="nav-links">
-                <a href="https://www.linkedin.com/in/nitish-kumar-pradhan-81ab5a21a/" class="hover-link secondary-button">Hire Me </a>
+                <a href="#form" class="hover-link secondary-button">Hire Me </a>
             </div>
         </div>
     </nav>
@@ -162,8 +162,8 @@
 
     <section class="examples-section">
         <div class="container">
-            <div class="examples-header flex">
-                <h2 class="examples-heading-text">My Projects</h2>
+            <div class="features-header flex">
+                <h2 class="features-heading-text">My Projects</h2>
             </div>
             <div class="examples-area flex">
                 <a href="https://nitish-kumar-pradhan.github.io/Amazon-clone/" class="examples-card">
@@ -182,12 +182,31 @@
         </div>
     </section>
 
+    <section class="form-section" id="form">
+        <div class="container">
+            <div class="features-header flex">
+                <h2 class="features-heading-text">Contact Me</h2>
+            </div>
+            <form action="https://formspree.io/f/xqkrknyv" method="post">
+            <div class="form-area flex">
+                <div class="name flex">
+                    <input class="first-name" type="text" name="first" placeholder="First Name" autocomplete="off" required>
+                    <input class="last-name" type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+                </div>
+                    <input class="email-add" type="email" name="email" placeholder="Email Adress" autocomplete="off" required>
+                    <textarea class="message-box" name="message" cols="50" rows="10" placeholder="Enter Your Message ..." autocomplete="off" required></textarea>
+                    <button type="submit" class="form-button flex">Submit &nbsp;&nbsp;<i class="fa-solid fa-square-arrow-up-right"></i></button>
+            </div>
+            </form>
+        </div>
+    </section>
+
     <!-- cta section -->
 
     <section class="cta-section">
         <div class="container flex cta-section-container">
             <h2>Thank You For Visiting!</h2>
-            <a href="https://www.linkedin.com/in/nitish-kumar-pradhan-81ab5a21a/overlay/contact-info/" class="primary-button-foot">Contact Me &nbsp;&nbsp;<i class="fa-solid fa-square-arrow-up-right"></i></a>
+            <!-- <a href="https://www.linkedin.com/in/nitish-kumar-pradhan-81ab5a21a/overlay/contact-info/" class="primary-button-foot">Contact Me &nbsp;&nbsp;<i class="fa-solid fa-square-arrow-up-right"></i></a> -->
         </div>
     </section>
 
@@ -205,13 +224,7 @@
     <script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
 
     <script>
-        const toggleButton = document.getElementById('nav-toggle');
-        const navLinks = document.getElementById('nav-links');
-
-        toggleButton.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        })
-
+        
     </script>
 
 </body>
